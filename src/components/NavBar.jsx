@@ -12,10 +12,10 @@ const NavBar = () => (
 
         <div className="d-md-none">
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile">
-                <i className="icon-tree5"/>
+                <i className="icon-tree5"></i>
             </button>
             <button className="navbar-toggler sidebar-mobile-main-toggle" type="button">
-                <i className="icon-paragraph-justify3"/>
+                <i className="icon-paragraph-justify3"></i>
             </button>
         </div>
 
