@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-/*
-import './assets/css/bootstrap.css';
-import './assets/css/bootstrap_limitless.css';
-import './assets/css/layout.css';
-import './assets/css/components.css';
-import './assets/css/colors.css';
-*/
+
+import './assets/css/bootstrap.min.css';
+import './assets/css/bootstrap_limitless.min.css';
+import './assets/css/layout.min.css';
+import './assets/css/components.min.css';
+import './assets/css/colors.min.css';
+
+import './assets/js/theme-app';
+
 import Application from './components/Application';
 
 import * as serviceWorker from './serviceWorker';
