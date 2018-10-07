@@ -15,6 +15,7 @@ const NavBar = () => (
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile">
                 <i className="icon-tree5"/>
             </button>
+
             <button className="navbar-toggler sidebar-mobile-main-toggle" type="button">
                 <i className="icon-paragraph-justify3"/>
             </button>
@@ -33,17 +34,17 @@ const NavBar = () => (
                 <li className="nav-item dropdown dropdown-user">
                     <a href="#" className="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
                         <img src={placeholder} className="rounded-circle" alt=""/>
-                            <span>User</span>
+                        <span>Артем Потоцкий</span>
                     </a>
 
                     <div className="dropdown-menu dropdown-menu-right">
-                        <a href="#" className="dropdown-item"><i className="icon-user-plus"/> My profile</a>
-                        <a href="#" className="dropdown-item"><i className="icon-coins"/> My balance</a>
-                        <a href="#" className="dropdown-item"><i className="icon-comment-discussion"/> Messages <span
-                            className="badge badge-pill bg-blue ml-auto">58</span></a>
-                        <div className="dropdown-divider"/>
-                        <a href="#" className="dropdown-item"><i className="icon-cog5"/> Account settings</a>
-                        <a href="#" className="dropdown-item"><i className="icon-switch2"/> Logout</a>
+                        <a href="#" className="dropdown-item">
+                            <i className="icon-cog5"/> Сменить пароль
+                        </a>
+
+                        <a href="#" className="dropdown-item">
+                            <i className="icon-switch2"/> Выход
+                        </a>
                     </div>
                 </li>
             </ul>

@@ -5,11 +5,12 @@ const Header = () => (
         <div className="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
             <div className="d-flex">
                 <div className="breadcrumb">
-                    <a href="/" className="breadcrumb-item"><i className="icon-home2 mr-2"/> Home</a>
-                    <span className="breadcrumb-item active">Dashboard</span>
-                </div>
+                    <a href="/" className="breadcrumb-item">
+                        <i className="icon-home2 mr-2"/> Домашняя
+                    </a>
 
-                <a href="#" className="header-elements-toggle text-default d-md-none"><i className="icon-more"/></a>
+                    <span className="breadcrumb-item active">Панель управления</span>
+                </div>
             </div>
         </div>
     </div>
