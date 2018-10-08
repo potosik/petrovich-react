@@ -1,7 +1,7 @@
 import React from 'react';
 
-import logo_light from '../assets/img/logo_light.png';
-import placeholder from '../assets/img/placeholders/placeholder.jpg';
+import logo_light from '../../assets/img/logo_light.png';
+import placeholder from '../../assets/img/placeholders/placeholder.jpg';
 
 const NavBar = () => (
     <div className="navbar navbar-expand-md navbar-dark">
@@ -38,7 +38,7 @@ const NavBar = () => (
                     </a>
 
                     <div className="dropdown-menu dropdown-menu-right">
-                        <a href="#" className="dropdown-item">
+                        <a href="/user/changePassword" className="dropdown-item">
                             <i className="icon-cog5"/> Сменить пароль
                         </a>
 

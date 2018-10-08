@@ -10,7 +10,7 @@ import './assets/css/icons/icomoon/styles.css';
 
 import './assets/js/theme-app';
 
-import Application from './components/Application';
+import Application from './views/root/Application';
 
 import * as serviceWorker from './serviceWorker';
 

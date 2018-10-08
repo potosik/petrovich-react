@@ -1,13 +1,13 @@
 import React from 'react';
 
-const View_1 = () => (
+const ChangePassword = () => (
     <div className="row">
         <div className="col-xs-12">
             <div className="card">
-                <h1>Main view 1</h1>
+                Change password
             </div>
         </div>
     </div>
 );
 
-export default View_1;
+export default ChangePassword;
