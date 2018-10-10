@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-    <div className="navbar navbar-light">
+    <div className="navbar navbar-light fixed-bottom">
         <span className="navbar-text">
              Прокат "Петрович" &copy; 2018 | Разработка:
             <a target="_blank"

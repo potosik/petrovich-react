@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
 
 import logo_light from '../../assets/img/logo_light.png';
 import placeholder from '../../assets/img/placeholders/placeholder.jpg';
@@ -38,9 +39,12 @@ const NavBar = () => (
                     </a>
 
                     <div className="dropdown-menu dropdown-menu-right">
-                        <a href="/user/changePassword" className="dropdown-item">
+                        <NavLink
+                            to="/user/changePassword"
+                            className="dropdown-item"
+                            activeClassName=" ">
                             <i className="icon-cog5"/> Сменить пароль
-                        </a>
+                        </NavLink>
 
                         <a href="#" className="dropdown-item">
                             <i className="icon-switch2"/> Выход

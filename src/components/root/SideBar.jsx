@@ -1,5 +1,4 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
 import placeholder from '../../assets/img/placeholders/placeholder.jpg';
 import AppSettings from "../../constants/config";
 import SideBarGroup from "./SideBarGroup";
